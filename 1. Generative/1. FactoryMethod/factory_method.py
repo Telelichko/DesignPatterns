@@ -22,7 +22,6 @@ class TruckWorkShop(IWorkShop):
     def create(self):
         return Truck()
 
-
 if __name__ == '__main__':
     creator = CarWorkShop()
     car = creator.create()
